@@ -1,9 +1,8 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,KAAK,CAAC;EACL,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CACb",
+    "mappings": "AAEA,AAAA,KAAK,CAAC;EACL,gBAAgB,EAAE,KAAK;EACvB,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,MAAM;CAQnB;;AANA,MAAM,EAAE,SAAS,EAAE,KAAK;EALzB,AAAA,KAAK,CAAC;IAMJ,SAAS,EAAE,IAAI;GAKhB;;;AAHA,MAAM,EAAE,gBAAgB,EAAE,KAAK;EARhC,AAAA,KAAK,CAAC;IASJ,SAAS,EAAE,IAAI;GAEhB",
     "sources": [
-        "directions.scss",
-        "../../variables/variables.scss"
+        "directions.scss"
     ],
     "names": [],
     "file": "directions.css"

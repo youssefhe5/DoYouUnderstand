@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import style from "../styles/pages/index/index.css";
 import Directions from "../components/directions";
 import TopNav from "../components/topNav";
+import Graphics from "../components/graphics";
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
@@ -12,6 +13,7 @@ class PageOne extends Component {
 		{
 			title: "Welcome!",
 			isLoading: false,
+			direction: "Choose one of the following options below. "
 		}
 	}
 
@@ -28,11 +30,21 @@ class PageOne extends Component {
 					icon = "back"
 				/>
 			</div>
+
 			<div className={style.bottom}>
 				<Directions
+					text = {this.state.direction}
+				/>
+
+				{/* Graphic */}
+				<Graphics
 				
 				/>
+				{/* Create New Button */}
+				{/* Join*/}
 			</div>
+
+
 
 				{/* <div className={style.title}>
 					{this.state.title}

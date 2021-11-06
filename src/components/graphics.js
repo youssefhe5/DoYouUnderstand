@@ -1,13 +1,16 @@
+import { getGFX } from "../assets/graphics";
 import { validateProp } from "../validators/dataValidator";
-import style from "../styles/components/directions/directions.css";
+import style from "../styles/components/graphics/graphics.css";
 import { motion, AnimatePresence } from "framer-motion";
 import React, { Component } from 'react';
 
-export default class Directions extends Component {
+export default class Graphics extends Component {
 	constructor(props) {
 		super(props);
 		this.state = 
-		{}
+		{
+
+		}
 	}
 
 	render () {
@@ -19,10 +22,9 @@ export default class Directions extends Component {
 				exit={{ opacity: 0, scale: 0}}
 				className={style.comp}
 			>	
-
-					<div className={style.comp}>
-						{this.props.text}
-					</div>
+				<img src = {getGFX("PinkBooks")}></img>
+				
+				
 			</motion.div>
 		)
 	}		
