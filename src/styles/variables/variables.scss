@@ -1,0 +1,31 @@
+@mixin blackGradient {
+	background: linear-gradient(180deg, var(--blackGradient1) 0%, var(--blackGradient2) 100%);
+}
+
+@mixin blueGradient {
+	background: linear-gradient(180deg, var(--blueGradient1) 0%, var(--blueGradient2) 100%);
+}
+
+@mixin redGradient {
+	background: linear-gradient(180deg, var(--redGradient1) 0%, var(--redGradient2) 100%);
+}
+
+@mixin dropShadow {
+	box-shadow: 0px 14px 40px var(--shadow);
+}
+
+@mixin icon {
+	stroke: var(--t-color);
+	fill: var(--t-color);
+}
+
+@mixin iconOnGradient {
+	stroke: var(--onGradientText);
+	fill: var(--onGradientText);
+}
+
+@mixin center {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}

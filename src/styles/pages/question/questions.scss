@@ -1,0 +1,86 @@
+@import "../../variables/variables.scss";
+
+:root * {
+	--bg-color: #FFFFFF;
+	--onGradientText: #ffffff;
+	--t-color: #000000;
+
+	--blackGradient1: #727883;
+	--blackGradient2: #243B55;
+	--blueGradient1: #00C6FF;
+	--blueGradient2: #0072FF;
+	--redGradient1: #ED0A88;
+	--redGradient2: #FB6069;
+	
+	--shadow: rgba(0, 0, 0, 0.10);
+
+	// font-family: 'Sora', sans-serif;
+	font-family: 'Hind', sans-serif;
+	font-weight: 300;
+	outline: none;
+	z-index: 0;
+}
+
+::-webkit-scrollbar {width: 0px; height: 0px;}
+body {
+	background-color: var(--bg-color);
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	overflow: auto;
+	margin: 0px;
+}
+
+.pageCont {
+	background-color: var(--white);
+	height: 100vh;
+	padding: 1rem;
+	width: 100vw;
+
+	@media (max-device-width: 850px) {
+		padding: 2rem;
+	}
+}
+	.title {
+		color: var(--t-color);
+		font-size: 2.5rem;
+		font-weight: normal;
+
+		@media (max-width: 850px) {
+			font-size: 2rem;
+		}
+		@media (max-device-width: 850px) {
+			font-size: 5rem;
+		}
+	}
+	.subtitle {
+		font-weight: normal;
+		color: var(--t-color);
+		font-size: 1.5rem;
+		
+		@media (max-width: 850px) {
+			font-size: 1.5rem;
+		}
+		@media (max-device-width: 850px) {
+			font-size: 3rem;
+		}
+	}
+
+	.button {
+		color: var(--onGradientText);
+		@include blueGradient;
+		border-radius: 50rem;
+		padding: .75rem 4rem;
+		margin-top: 2.5rem;
+		font-size: 1.5rem;
+		border: none;
+
+		@media (max-device-width: 850px) {
+			padding: 1.5rem 2rem;
+			margin-top: 5rem;
+			font-size: 3rem;
+		}
+	}

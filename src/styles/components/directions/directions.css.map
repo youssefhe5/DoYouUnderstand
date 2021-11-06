@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,KAAK,CAAC;EACL,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CACb",
+    "sources": [
+        "directions.scss",
+        "../../variables/variables.scss"
+    ],
+    "names": [],
+    "file": "directions.css"
+}

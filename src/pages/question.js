@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import style from "./page2.css";
-
-class PageOne extends Component {
+import style from "../styles/pages/question/questions.css";
+class PageTwo extends Component {
 	constructor(props) {
 		super(props);
 		this.state =
@@ -29,4 +28,4 @@ class PageOne extends Component {
 	}
 }
 
-ReactDOM.render(<PageOne/>, document.getElementById('pageOne'));
+ReactDOM.render(<PageTwo/>, document.getElementById('pageOne'));
