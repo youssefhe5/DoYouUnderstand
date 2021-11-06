@@ -1,8 +1,14 @@
 @import "../../variables/variables.scss";
 
 .topNavCont {
+	width: 100%;
 	display: flex;
 	align-items: center;
+	padding: 2rem;
+
+	@media (max-device-width: 850px) {
+		padding: 4rem;
+	}
 }
 
 .title {
@@ -19,9 +25,15 @@
 }
 
 .iconCont {
-	margin-right: 3rem;
-	width: 3rem;
-	height: 3rem;
+	margin-right: 2rem;
+	width: 2rem;
+	height: 2rem;
+
+	@media (max-device-width: 850px) {
+		margin-right: 3rem;
+		width: 4rem;
+		height: 4rem;
+	}
 }
 	.icon {
 		@include iconOnGradient;
