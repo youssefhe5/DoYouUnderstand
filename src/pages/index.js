@@ -27,7 +27,7 @@ class PageOne extends Component {
 			<div className={style.top}>
 				<TopNav
 					text = {this.state.title}
-					icon = "back"
+					// icon = "back"
 				/>
 			</div>
 
