@@ -20,9 +20,10 @@ export default class Directions extends Component {
 				className={style.comp}
 			>	
 
-					<div className={style.comp}>
+					<div className={style.comp1}>
 						{this.props.text}
 					</div>
+
 			</motion.div>
 		)
 	}		

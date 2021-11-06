@@ -1,9 +1,9 @@
 @mixin blackGradient {
-	background: linear-gradient(180deg, var(--blackGradient1) 0%, var(--blackGradient2) 100%);
+	background: linear-gradient(90deg, var(--blackGradient2) 0%, var(--blackGradient1) 100%);
 }
 
 @mixin blueGradient {
-	background: linear-gradient(180deg, var(--blueGradient1) 0%, var(--blueGradient2) 100%);
+	background: linear-gradient(90deg, var(--blueGradient1) 0%, var(--blueGradient2) 100%);
 }
 
 @mixin redGradient {

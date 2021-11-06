@@ -22,7 +22,7 @@ export default class Graphics extends Component {
 				exit={{ opacity: 0, scale: 0}}
 				className={style.comp}
 			>	
-				<img src = {getGFX("PinkBooks")}></img>
+				<img src = {getGFX(this.props.image)} className={style.pinkbooks}></img>
 				
 				
 			</motion.div>

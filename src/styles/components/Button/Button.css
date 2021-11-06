@@ -1,0 +1,38 @@
+.BlueButton {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 4rem;
+  color: var(--onGradientText);
+  background: -webkit-gradient(linear, left top, right top, from(var(--blueGradient1)), to(var(--blueGradient2)));
+  background: linear-gradient(90deg, var(--blueGradient1) 0%, var(--blueGradient2) 100%);
+  border-radius: 50rem;
+  width: 80%;
+  height: 10rem;
+}
+
+.RedButton {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 4rem;
+  color: var(--onGradientText);
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--redGradient1)), to(var(--redGradient2)));
+  background: linear-gradient(180deg, var(--redGradient1) 0%, var(--redGradient2) 100%);
+  border-radius: 50rem;
+  width: 80%;
+  height: 10rem;
+}
+/*# sourceMappingURL=Button.css.map */

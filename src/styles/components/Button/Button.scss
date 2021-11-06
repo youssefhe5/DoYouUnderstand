@@ -1,0 +1,28 @@
+@import "../../variables/variables.scss";
+
+
+.BlueButton{
+
+    @include center;
+    font-size: 4rem;
+    color: var(--onGradientText);
+    @include blueGradient;
+    border-radius: 50rem;
+    width: 80%;
+    height: 10rem;
+
+}
+
+.RedButton{
+
+    @include center;
+    font-size: 4rem;
+    color: var(--onGradientText);
+    @include redGradient;
+    border-radius: 50rem;
+    width: 80%;
+    height: 10rem;
+
+}
+
+

@@ -3,6 +3,7 @@ import style from "../styles/pages/index/index.css";
 import Directions from "../components/directions";
 import TopNav from "../components/topNav";
 import Graphics from "../components/graphics";
+import Button from "../components/button";
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
@@ -13,7 +14,10 @@ class PageOne extends Component {
 		{
 			title: "Welcome!",
 			isLoading: false,
-			direction: "Choose one of the following options below. "
+			direction: "Choose one of the following options below. ",
+			PinkBooks: "PinkBooks",
+			Button_Color1: "Blue",
+			Button_Color2: "Red"
 		}
 	}
 
@@ -27,8 +31,9 @@ class PageOne extends Component {
 			<div className={style.top}>
 				<TopNav
 					text = {this.state.title}
-					// icon = "back"
+					icon = "back"
 				/>
+
 			</div>
 
 			<div className={style.bottom}>
@@ -38,9 +43,21 @@ class PageOne extends Component {
 
 				{/* Graphic */}
 				<Graphics
-				
+					image = {this.state.PinkBooks}
 				/>
+
 				{/* Create New Button */}
+				<Button 
+					Button = {"Create New"}
+					Color  = {"Blue"}
+				/>
+
+				<Button
+					Button = {"Join"}
+					Color  = {"Red"}
+				/>
+
+
 				{/* Join*/}
 			</div>
 
